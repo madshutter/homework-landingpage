@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background: #ffffff;
+}
+
+.button {
+	width: 275px;
+	display: inline-block;
+	border-radius: 5px;
+  	color: white;
+  	padding: 10px 0;
+  	text-align: center;
+  	font-weight: bold;
+  	text-decoration: none;
+  	font-size: 14px;
+	}
+
+
+header {
+	align-items: center;
+	height: 500px;
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	color: #fff;
+	padding: 25px 0px 50px 50px;
+	margin: 0px;
+	font-style: black;
+	}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-style: black;
+	color: rgb(16,204,114);
+	background: none;
+	padding: 15px 0px 0px 50px;
+	overflow: hidden;
+	flex: none;
+	text-shadow: black 0px 0px 1px;
+	}
+
+h3 {
+	color: #033048;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-style: bold;
+
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-style: bold;
+}
+
+p {
+	color: rgb(142,149,146);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}	
+
+.primary {
+	 background: rgb(16,204,114);
+	 margin: 0px 0px 5px 50px;
+	}
+
+a {
+	color: rgb(142,149,146);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	display: inline-flex;
+}
+
+blockquote {
+	color: rgb(113,122,128);
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	border: 0px 40px;
+	width: 700px;
+	text-align: center;
+	float: center;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	text-align: center;
+}
+
+section div {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	width: auto;
+}
+section#one{
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	margin: 0px 15px 0px 0px;
+}
+
+section#two{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+}
+
+
+.secondary {
+	background: rgb(115,176,248);
+	margin: 10px 0px 10px 0px;
+	align-items: center;
+}	
+
+section#three{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+	text-align: center;
+	color: rgb(142,149,146)
+}
+
+cite {
+	font-size: 14px;
+	font-style: medium;
+}
+
+section#four{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(242,244,246); 
+	color: rgb(113,122,128);
+	font-family: 'Roboto', sans-serif;
+	padding: 40px 0px 20px 0px;
+	text-align: center;
+}
+
+small {
+	text-align: center;
+	font-size: 9px;
+	font-style: bold;
+}
+
+
+
+
+
