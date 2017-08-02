@@ -1,15 +1,23 @@
-header, aside, section, footer{
+/*header, aside, section, footer{
 	border: 1px solid black;
 }
 
 * {
   box-sizing: border-box;
-}
+}*/
 
+#asideleft li:hover {
+    background-color: rgba(16,204,114,25);
+    width: 100px;
+    display: block;
+}
 
 section, header, ul{
 	display: flex;
 	justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+
 }
 
 nav{
@@ -20,7 +28,7 @@ nav{
 body {
 	background: #ffffff;
 	display: grid;
-	grid-template-columns: 300px 500px 300px;
+	grid-template-columns: 325px 650px 325px;
 	grid-template-rows: 100%;
 	grid-template-areas: "a a a "
 						 "b c d"
@@ -44,17 +52,23 @@ header {
 
 }	
 
-img {
-	width: 200px;
-	margin: 20px;
+aside img {
+	width: 250px;
+	margin: 0px 0px 20px 0px;
+}
+
+section img {
+	width: 600px;
 }
 
 aside#left {
 	grid-area: b;
 	grid-row: 2/3;
 	grid-column: 1/2;
-	display: inline-flex;
-	flex-direction: 
+	flex-direction: column;
+	margin: 20px;
+	align-items: center;
+	justify-content: flex-start;
 }		
 
 section { 
@@ -62,6 +76,7 @@ section {
 	grid-row: 2/3;
 	grid-column: 2/3;
 	flex-direction: column;
+	margin: 20px;
 }
 
 aside#right {
@@ -73,6 +88,8 @@ aside#right {
 	display: inline-flex;
 	margin: 20px;
 	align-items: center;
+	text-align: center;
+	justify-content: flex-start;
 
 }
 
@@ -89,113 +106,122 @@ footer {
 	font-family: 'Roboto', sans-serif;
 	padding: 40px 0px 20px 0px;
 	text-align: center;
-}		
-
-div#sectionsecondary{
-	display: flex;
-	justify-content: all;
-	text-align: center;
-	color: rgb(142,149,146);
 }
 
-/*nav:hover {
-  background:orange;
-*/
 
 * {
   box-sizing: border-box;
-}
-
-a {
-	color: black;
 }
 
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 40px;
 	color: #fff;
-	padding: 25px 0px 50px 50px;
+	padding: 25px 0px 50px 0px;
 	margin: 0px;
-	font-style: black;
+	font-weight: 900;
+
 	}
 
-a {
+h2 {
+	color: #033048;
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+
+	}	
+
+h3 {
+	color: #033048;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-style: bold;
+	margin: 20px;
+}
+
+p {
+	color: color: #033048;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}	
+
+cite {
+	font-size: 13px;
+	font-weight: 100i;
+	color: rgb(113,122,128);
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-weight: 700;
+}
+
+small {
+	text-align: center;
+	font-size: 9px;
+	font-style: bold;
+}
+
+#headernav a {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 	text-align: center;
-	display: ;
+	display: flex;
 	flex-direction: row-reverse;
 	text-decoration: none;
-	/*justify-content: center;*/
+	justify-content: center;
 }
 
-#left {
-	flex: 2;
-}
-
-#right {
-	flex: 2;
-}
-
-#sectionprimary {
-	flex: 2;
-}
-
-#sectionsecondary{
-	flex: 2;
-}
-
-#leftsecondary{
-	color: black;
-}
-
-ul
-{
-	list-style-type: none;
-}
-
-
-
-
-
-
-/*section, header, ul{
-	display: flex;
-	justify-content: space-around;
-}*/
-
-/*nav{
-	width: 400px;
-}*/
-
-/*header nav ul {
-	list-style-type: none;
-}*/
-/*section div{
-	width: 50px;
-	padding: 10px;
-	margin: 20px;
-	flex: 3;
-}*/
-
-/*h1{
+#asideleft ul {
+	color: rgb(113,122,128);
 	font-family: 'Roboto', sans-serif;
-	color: white;
-	font-size: 35px;
-}*/
+	text-align: left;
+	display: block;
+	flex-direction: column;
+	text-decoration: none;
+	flex: 2;
+	font-size: 13px;
+	padding: 0px 20px;
+}
 
-/*h2{
-	font-family: 'Roboto', sans-serif, bold;
+#asideleft li {
+	margin: 3px;
+	padding: 0px;
 	
-}*/
+}
 
-/*p{
+#asideleft h2 ul {
+	align-items: left: 
+}
+
+#asideleft a {
+	color: rgb(113,122,128);
 	font-family: 'Roboto', sans-serif;
-}*/
+	text-align: left;
+	text-decoration: none;
+	font-weight: 300;
 
-/*#primary {
-	flex: 2;
-}*/
+}
+
+input {
+	width: 150px;
+	display: block;
+	border-radius: 5px;
+  	color: white;
+  	padding: 10px;
+  	text-align: center;
+  	font-weight: 500;
+  	text-decoration: none;
+  	font-size: 14px;
+  	background: rgb(16,204,114);
+	margin: 100px 0px 5px 20px;
+	}
 
 
 
