@@ -69,6 +69,7 @@ aside#left {
 	margin: 20px;
 	align-items: center;
 	justify-content: flex-start;
+	flex: 2;
 }		
 
 section { 
@@ -77,6 +78,7 @@ section {
 	grid-column: 2/3;
 	flex-direction: column;
 	margin: 20px;
+	flex: 2;
 }
 
 aside#right {
@@ -90,6 +92,7 @@ aside#right {
 	align-items: center;
 	text-align: center;
 	justify-content: flex-start;
+	flex: 2;
 
 }
 
@@ -185,7 +188,6 @@ small {
 	display: block;
 	flex-direction: column;
 	text-decoration: none;
-	flex: 2;
 	font-size: 13px;
 	padding: 0px 20px;
 }
